@@ -55,7 +55,8 @@ function App() {
 
         <div className="wrapper clear">
 
-            <div>Привет</div>
+        
+        <div>Привет Vb</div>
 
 
             {cardOpened && <Drawer items={cardItems} onClose={() => setCardOpened(false)} onRemove={onRemoveItem}/>}
